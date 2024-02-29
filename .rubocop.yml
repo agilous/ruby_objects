@@ -1,0 +1,8 @@
+require:
+  - rubocop-rspec
+
+AllCops:
+  Exclude:
+    - bin/**/*
+  NewCops: enable
+  TargetRubyVersion: 3.2
